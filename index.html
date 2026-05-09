@@ -3,383 +3,353 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Soluciones Tecnológicas para la Gestión de Datos y Seguridad. Consultoría para PyMEs en ciberseguridad, redes empresariales, cableado estructurado, CCTV, Voz IP y centros de datos." />
+  <title>STGDyS | Seguridad, Infraestructura y Continuidad Operativa</title>
+  <meta name="description" content="Consultoría tecnológica integral para PyMEs: seguridad empresarial, infraestructura tecnológica, diagnóstico, reestructuración, monitoreo y continuidad operativa." />
   <meta name="theme-color" content="#1C153D" />
-  <title>Soluciones Tecnológicas | Gestión de Datos y Seguridad</title>
   <link rel="icon" href="./assets/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" href="./assets/favicon-32.png">
   <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
   <link rel="manifest" href="./assets/site.webmanifest">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
   <header class="site-header">
     <nav class="nav container">
-      <a href="#inicio" class="brand" aria-label="Ir al inicio">
-        <span class="brand-mark">
-          <img src="./assets/brand-mark.webp" alt="" aria-hidden="true" />
+      <a href="#inicio" class="brand brand-navbar-final" aria-label="Ir al inicio">
+        <span class="brand-symbol">
+          <img src="./assets/logo-navbar-optmized.PNG" alt="" aria-hidden="true">
         </span>
-        <span class="brand-text">
+        <span class="brand-name">
           <strong>Soluciones Tecnológicas</strong>
-          <small>Gestión de Datos y Seguridad</small>
+          <small>para la Gestión de Datos y Seguridad</small>
         </span>
       </a>
-
       <div class="nav-right">
-        <div class="nav-links">
-          <a href="#servicios">Servicios</a>
-          <a href="#paquetes">Paquetes</a>
-          <a href="#proceso">Proceso</a>
+        <div class="nav-links" id="navLinks">
+          <a href="#soluciones" class="is-active">Soluciones</a>
+          <a href="#continuidad">Continuidad</a>
+          <a href="#metodologias">Metodologías</a>
+          <a href="#niveles">Niveles</a>
           <a href="#contacto">Contacto</a>
         </div>
-
-        <a class="nav-cta" href="https://wa.me/525610462212?text=Hola%2C%20quiero%20solicitar%20informaci%C3%B3n%20sobre%20sus%20servicios." target="_blank" rel="noopener">
-          WhatsApp
-        </a>
-
-        <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
-          <span></span><span></span><span></span>
-        </button>
+        <a class="nav-cta" href="https://wa.me/525610464412?text=Hola%2C%20quiero%20solicitar%20un%20diagn%C3%B3stico%20tecnol%C3%B3gico%20para%20mi%20empresa." target="_blank" rel="noopener">Solicitar diagnóstico</a>
+        <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button>
       </div>
     </nav>
   </header>
 
   <main>
     <section id="inicio" class="hero">
-      <div class="hero-glow"></div>
+      <div class="hero-grid-bg"></div>
       <div class="container hero-grid">
-        <div class="hero-content">
-          <p class="eyebrow">Consultoría tecnológica para PyMEs</p>
-          <h1>Seguridad, infraestructura y tecnología empresarial para operar con confianza.</h1>
-          <p class="hero-description">
-            Protegemos y ordenamos la infraestructura tecnológica de tu empresa con soluciones de
-            ciberseguridad, redes, CCTV, cableado estructurado, Voz IP y documentación técnica clara
-            para tomar mejores decisiones.
-          </p>
-
+        <div class="hero-content reveal">
+          <p class="eyebrow">Consultoría tecnológica integral para PyMEs</p>
+          <h1>Protegemos y organizamos la operación tecnológica de tu empresa.</h1>
+          <p class="hero-description">Seguridad empresarial, infraestructura tecnológica y continuidad operativa para negocios que necesitan estabilidad, acompañamiento y decisiones basadas en diagnóstico.</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="https://wa.me/525610462212?text=Hola%2C%20quiero%20solicitar%20un%20diagn%C3%B3stico%20tecnol%C3%B3gico%20para%20mi%20empresa." target="_blank" rel="noopener">
-              Agendar diagnóstico
-            </a>
-            <a class="btn btn-secondary" href="https://wa.me/525610462212?text=Hola%2C%20quiero%20pedir%20una%20cotizaci%C3%B3n%20para%20mi%20empresa." target="_blank" rel="noopener">
-              Pedir cotización
-            </a>
+            <a class="btn btn-primary" href="https://wa.me/525610464412?text=Hola%2C%20quiero%20solicitar%20un%20diagn%C3%B3stico%20tecnol%C3%B3gico%20para%20mi%20empresa." target="_blank" rel="noopener">Solicitar diagnóstico tecnológico</a>
+            <a class="btn btn-secondary" href="#soluciones">Conocer soluciones</a>
           </div>
-
-          <div class="conversion-strip" aria-label="Beneficios principales">
-            <div><strong>Diagnóstico</strong><span>Riesgos y necesidades</span></div>
-            <div><strong>Propuesta</strong><span>Técnica y económica</span></div>
-            <div><strong>Implementación</strong><span>Ordenada y documentada</span></div>
-          </div>
-
-          <div class="trust-row">
-            <span>Estado de México</span>
-            <span>Atención remota nacional</span>
-            <span>Informes y cotizaciones</span>
-          </div>
+          <div class="trust-pills"><span>Estado de México</span><span>Remoto nacional</span><span>Desde $2,000 MXN*</span></div>
         </div>
 
-        <aside class="hero-card">
-          <img src="./assets/logo-hero.webp" alt="Soluciones Tecnológicas para la Gestión de Datos y Seguridad" class="hero-logo" />
-          <div class="hero-card-content">
-            <h2>¿Tu empresa necesita mejorar seguridad o infraestructura?</h2>
-            <p>
-              Solicita una revisión inicial para detectar riesgos, puntos débiles y oportunidades
-              de mejora antes de invertir en tecnología.
-            </p>
-            <ul class="mini-checklist">
-              <li>Redes, accesos y dispositivos</li>
-              <li>CCTV, cableado e infraestructura</li>
-              <li>Informe y cotización priorizada</li>
-            </ul>
-            <a href="https://wa.me/525610462212?text=Hola%2C%20quiero%20agendar%20una%20revisi%C3%B3n%20inicial%20para%20mi%20empresa." target="_blank" rel="noopener">
-              Agendar revisión inicial →
-            </a>
+        <aside class="hero-panel reveal">
+          <img src="./assets/logotipo-02.png" alt="Soluciones Tecnológicas para la Gestión de Datos y Seguridad" class="panel-logo" />
+          <div class="operation-card">
+            <div class="status-line"><span class="status-dot"></span><strong>Modelo operativo</strong></div>
+            <div class="mini-flow">
+              <div><span>01</span><p>Diagnóstico</p></div>
+              <div><span>02</span><p>Propuesta</p></div>
+              <div><span>03</span><p>Implementación</p></div>
+              <div><span>04</span><p>Seguimiento</p></div>
+            </div>
+            <div class="metrics-grid">
+              <div><strong>Riesgo</strong><span>Evaluación inicial</span></div>
+              <div><strong>Servicio</strong><span>Continuidad</span></div>
+              <div><strong>Control</strong><span>Buenas prácticas</span></div>
+              <div><strong>Visibilidad</strong><span>Reportes</span></div>
+            </div>
           </div>
         </aside>
       </div>
     </section>
 
-    <section class="section problem-section">
-      <div class="container problem-grid">
-        <div class="section-heading compact">
-          <p class="eyebrow">Para negocios que quieren prevenir</p>
-          <h2>Antes de comprar equipos, conviene saber qué necesita realmente tu empresa</h2>
-          <p>
-            Muchas PyMEs crecen con redes improvisadas, cámaras sin buena configuración,
-            usuarios sin control y poca documentación. Nuestro trabajo es ayudarte a ordenar,
-            proteger y escalar tu operación tecnológica.
-          </p>
-        </div>
+    <section class="confidence-section">
+      <div class="container confidence-grid">
+        <article class="confidence-card reveal"><span>🛡️</span><h3>Seguridad empresarial</h3><p>Protección, evaluación de riesgos y fortalecimiento alineado a buenas prácticas.</p></article>
+        <article class="confidence-card reveal"><span>🌐</span><h3>Infraestructura tecnológica</h3><p>Redes, CCTV, cableado, Voz IP y organización operativa para PyMEs.</p></article>
+        <article class="confidence-card reveal"><span>📊</span><h3>Continuidad operativa</h3><p>Monitoreo, seguimiento, reportes y acompañamiento estratégico.</p></article>
+        <article class="confidence-card reveal"><span>📋</span><h3>Diagnóstico y visibilidad</h3><p>Hallazgos, riesgos, recomendaciones y roadmap de mejora tecnológica.</p></article>
+      </div>
+    </section>
 
-        <div class="problem-cards">
-          <div><strong>Evita gastos innecesarios</strong><span>Priorizamos soluciones según riesgo, urgencia y presupuesto.</span></div>
-          <div><strong>Reduce puntos ciegos</strong><span>Revisamos seguridad, infraestructura y operación, no solo “instalamos”.</span></div>
-          <div><strong>Recibe claridad técnica</strong><span>Entregamos evidencia, recomendaciones e informes entendibles.</span></div>
+    <section class="section problems-section">
+      <div class="container split-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Problemas que resolvemos</p>
+          <h2>Ayudamos a empresas que necesitan orden, estabilidad y protección tecnológica.</h2>
+          <p>Muchas PyMEs crecen con redes improvisadas, dispositivos sin control, cámaras mal configuradas y poca documentación. Nuestro enfoque parte de diagnosticar antes de implementar.</p>
+        </div>
+        <div class="problem-grid">
+          <article class="problem-card reveal"><h3>Redes inestables</h3><p>Interrupciones, baja cobertura, crecimiento desordenado y falta de segmentación.</p></article>
+          <article class="problem-card reveal"><h3>Riesgos de seguridad</h3><p>Cuentas expuestas, dispositivos vulnerables, malas prácticas y falta de control.</p></article>
+          <article class="problem-card reveal"><h3>Infraestructura desorganizada</h3><p>Racks sin orden, cableado sin etiquetar, CCTV sin administración y poca visibilidad.</p></article>
+          <article class="problem-card reveal"><h3>Falta de seguimiento</h3><p>Ausencia de métricas, reportes, continuidad, soporte y acompañamiento preventivo.</p></article>
         </div>
       </div>
     </section>
 
-    <section id="servicios" class="section">
+    <section id="soluciones" class="section solutions-section">
       <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Servicios</p>
-          <h2>Soluciones integrales para proteger y modernizar tu negocio</h2>
+        <div class="section-heading center reveal">
+          <p class="eyebrow">Soluciones principales</p>
+          <h2>Soluciones para continuidad y protección empresarial.</h2>
           <p>
-            Integramos seguridad, redes e infraestructura para que tu empresa tenga una base tecnológica ordenada,
-            segura y escalable.
+            Diseñamos e implementamos soluciones tecnológicas alineadas a mejores prácticas para mantener
+            tu operación segura, estable y preparada para crecer.
           </p>
         </div>
 
-        <div class="services-grid">
-          <article class="service-card">
-            <span class="icon">🛡️</span>
-            <h3>Ciberseguridad</h3>
-            <p>Hardening, revisión de accesos, protección de endpoints, respuesta inicial a incidentes y buenas prácticas.</p>
-          </article>
-          <article class="service-card">
-            <span class="icon">📋</span>
-            <h3>Seguridad de la información</h3>
-            <p>Políticas, controles, documentación, gestión de riesgos e informes ejecutivos para la toma de decisiones.</p>
-          </article>
-          <article class="service-card">
-            <span class="icon">💻</span>
-            <h3>Seguridad informática</h3>
-            <p>Configuración segura de sistemas, usuarios, dispositivos, correo empresarial y herramientas de operación.</p>
-          </article>
-          <article class="service-card">
-            <span class="icon">🌐</span>
-            <h3>Redes empresariales</h3>
-            <p>Diseño, implementación y configuración de redes, WiFi empresarial, segmentación, firewall y VPN.</p>
-          </article>
-          <article class="service-card">
-            <span class="icon">🔌</span>
-            <h3>Cableado estructurado</h3>
-            <p>Instalación ordenada, canalización, racks, patch panels, etiquetado y documentación técnica.</p>
-          </article>
-          <article class="service-card">
-            <span class="icon">🎥</span>
-            <h3>CCTV</h3>
-            <p>Instalación y configuración de cámaras, grabadores, acceso remoto y monitoreo para negocios.</p>
-          </article>
-          <article class="service-card">
-            <span class="icon">☎️</span>
-            <h3>Voz IP</h3>
-            <p>Implementación y configuración de telefonía IP para comunicación empresarial eficiente.</p>
-          </article>
-          <article class="service-card">
-            <span class="icon">🏢</span>
-            <h3>Centros de datos</h3>
-            <p>Planeación, organización e implementación de infraestructura física y lógica para operación tecnológica.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="paquetes" class="section section-muted">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Paquetes editables</p>
-          <h2>Soluciones claras para empezar sin complicaciones</h2>
-          <p>
-            Estos paquetes son una base inicial. Puedes editar nombres, precios y alcances directamente en el archivo HTML.
-          </p>
-        </div>
-
-        <div class="pricing-grid">
-          <article class="price-card">
-            <p class="package-label">Inicio</p>
-            <h3>Diagnóstico Tecnológico PyME</h3>
-            <p class="price">Desde $1,500 MXN</p>
+        <div class="solutions-grid premium-cards">
+          <article class="solution-card featured reveal">
+            <div class="solution-top">
+              <span>Servicio de entrada</span>
+              <svg class="tech-icon" viewBox="0 0 64 64" aria-hidden="true">
+                <path d="M14 10h24l10 10v18" />
+                <path d="M38 10v12h12" />
+                <path d="M20 28h16M20 36h10" />
+                <circle cx="42" cy="42" r="10" />
+                <path d="M49 49l9 9" />
+              </svg>
+            </div>
+            <h3>Diagnóstico Tecnológico</h3>
+            <p>
+              Revisión inicial de red, seguridad básica, dispositivos, riesgos y hallazgos para conocer
+              el estado real de tu operación antes de invertir.
+            </p>
             <ul>
-              <li>Revisión inicial de infraestructura</li>
-              <li>Identificación de riesgos y necesidades</li>
-              <li>Informe básico de hallazgos</li>
-              <li>Recomendaciones priorizadas</li>
+              <li>Máximo 2 horas</li>
+              <li>No incluye pruebas invasivas</li>
+              <li>Hallazgos y recomendaciones</li>
+              <li>Cotización personalizada</li>
             </ul>
-            <a class="btn btn-card" href="https://wa.me/525610462212?text=Hola%2C%20quiero%20informaci%C3%B3n%20del%20Diagn%C3%B3stico%20Tecnol%C3%B3gico%20PyME." target="_blank" rel="noopener">Solicitar</a>
+            <a href="https://wa.me/525610464412?text=Hola%2C%20quiero%20solicitar%20un%20diagn%C3%B3stico%20tecnol%C3%B3gico." target="_blank" rel="noopener">Solicitar evaluación inicial →</a>
           </article>
 
-          <article class="price-card featured">
-            <p class="package-label">Recomendado</p>
-            <h3>Protección Continua</h3>
-            <p class="price">Desde $3,000 MXN mensual</p>
+          <article class="solution-card reveal">
+            <div class="solution-top">
+              <span>Autoridad</span>
+              <svg class="tech-icon" viewBox="0 0 64 64" aria-hidden="true">
+                <path d="M32 6l20 8v16c0 14-8 23-20 28C20 53 12 44 12 30V14l20-8z" />
+                <path d="M24 30v-5a8 8 0 0 1 16 0v5" />
+                <rect x="22" y="30" width="20" height="16" rx="3" />
+                <path d="M32 36v5" />
+              </svg>
+            </div>
+            <h3>Seguridad Empresarial</h3>
+            <p>
+              Evaluación, protección, fortalecimiento, monitoreo y recomendaciones alineadas a mejores prácticas
+              para reducir riesgos y amenazas.
+            </p>
             <ul>
-              <li>Seguimiento preventivo</li>
-              <li>Capacitación de ciberseguridad</li>
-              <li>Campañas de simulación de phishing</li>
-              <li>Informes periódicos</li>
+              <li>Evaluación de seguridad</li>
+              <li>Hardening y revisión de accesos</li>
+              <li>Respuesta inicial a incidentes</li>
+              <li>Simulación y capacitación</li>
             </ul>
-            <a class="btn btn-primary" href="https://wa.me/525610462212?text=Hola%2C%20me%20interesa%20el%20paquete%20de%20Protecci%C3%B3n%20Continua." target="_blank" rel="noopener">Cotizar</a>
+            <a href="#contacto">Conocer más →</a>
           </article>
 
-          <article class="price-card">
-            <p class="package-label">Infraestructura</p>
-            <h3>Red Empresarial Segura</h3>
-            <p class="price">Desde $4,500 MXN</p>
+          <article class="solution-card reveal">
+            <div class="solution-top">
+              <span>Operación</span>
+              <svg class="tech-icon" viewBox="0 0 64 64" aria-hidden="true">
+                <rect x="26" y="6" width="12" height="10" rx="2" />
+                <rect x="8" y="44" width="12" height="10" rx="2" />
+                <rect x="26" y="44" width="12" height="10" rx="2" />
+                <rect x="44" y="44" width="12" height="10" rx="2" />
+                <path d="M32 16v14M14 44V30h36v14M32 30v14" />
+              </svg>
+            </div>
+            <h3>Infraestructura Tecnológica</h3>
+            <p>
+              Diseño, implementación y organización de redes, cableado estructurado, CCTV, Voz IP, sites
+              y racks profesionales.
+            </p>
             <ul>
-              <li>Diseño de red empresarial</li>
-              <li>Configuración de equipos</li>
-              <li>Segmentación básica</li>
+              <li>Redes empresariales</li>
+              <li>Cableado estructurado</li>
+              <li>CCTV para negocios</li>
+              <li>Voz IP y comunicaciones</li>
+            </ul>
+            <a href="#contacto">Conocer más →</a>
+          </article>
+
+          <article class="solution-card wide reveal">
+            <div class="solution-top">
+              <span>Premium</span>
+              <svg class="tech-icon" viewBox="0 0 64 64" aria-hidden="true">
+                <rect x="12" y="10" width="40" height="10" rx="2" />
+                <rect x="12" y="27" width="40" height="10" rx="2" />
+                <rect x="12" y="44" width="40" height="10" rx="2" />
+                <path d="M20 15h2M20 32h2M20 49h2M30 15h14M30 32h14M30 49h14" />
+              </svg>
+            </div>
+            <h3>Reestructuración Tecnológica</h3>
+            <p>
+              Análisis, rediseño, reorganización, segmentación y documentación para empresas que necesitan
+              orden, eficiencia y escalabilidad.
+            </p>
+            <ul>
+              <li>Análisis del estado actual</li>
+              <li>Rediseño y reorganización</li>
+              <li>Segmentación avanzada</li>
               <li>Documentación técnica</li>
             </ul>
-            <a class="btn btn-card" href="https://wa.me/525610462212?text=Hola%2C%20quiero%20cotizar%20una%20Red%20Empresarial%20Segura." target="_blank" rel="noopener">Cotizar</a>
+            <a href="#contacto">Conocer más →</a>
           </article>
 
-          <article class="price-card">
-            <p class="package-label">Dispositivos</p>
-            <h3>Instalación Segura</h3>
-            <p class="price">$1,000 MXN por dispositivo</p>
+          <article class="solution-card wide reveal">
+            <div class="solution-top">
+              <span>Servicio estrella</span>
+              <svg class="tech-icon" viewBox="0 0 64 64" aria-hidden="true">
+                <rect x="10" y="10" width="44" height="30" rx="4" />
+                <path d="M20 48h24M28 40v8M36 40v8" />
+                <path d="M20 30l7-7 6 5 9-11" />
+                <circle cx="48" cy="17" r="3" />
+                <path d="M48 24v6" />
+              </svg>
+            </div>
+            <h3>Continuidad Operativa</h3>
+            <p>
+              Monitoreo, seguridad, respaldo, redundancia, segmentación y seguimiento para mantener
+              tu operación estable y protegida.
+            </p>
             <ul>
-              <li>Configuración inicial segura</li>
-              <li>Buenas prácticas de uso</li>
-              <li>Revisión de accesos</li>
-              <li>Recomendaciones de protección</li>
+              <li>Reportes bimestrales</li>
+              <li>Semáforos de prioridad</li>
+              <li>Seguimiento y métricas</li>
+              <li>Acompañamiento estratégico</li>
             </ul>
-            <a class="btn btn-card" href="https://wa.me/525610462212?text=Hola%2C%20quiero%20cotizar%20una%20instalaci%C3%B3n%20segura%20por%20dispositivo." target="_blank" rel="noopener">Solicitar</a>
+            <a href="#continuidad">Ver enfoque de continuidad →</a>
           </article>
-
-          <article class="price-card">
-            <p class="package-label">Videovigilancia</p>
-            <h3>CCTV para Negocios</h3>
-            <p class="price">Desde $3,500 MXN</p>
-            <ul>
-              <li>Instalación de cámaras</li>
-              <li>Configuración de grabación</li>
-              <li>Acceso remoto</li>
-              <li>Orientación de uso</li>
-            </ul>
-            <a class="btn btn-card" href="https://wa.me/525610462212?text=Hola%2C%20quiero%20cotizar%20CCTV%20para%20mi%20negocio." target="_blank" rel="noopener">Cotizar</a>
-          </article>
-
-          <article class="price-card">
-            <p class="package-label">A medida</p>
-            <h3>Proyecto Personalizado</h3>
-            <p class="price">Cotización personalizada</p>
-            <ul>
-              <li>Cableado estructurado</li>
-              <li>Voz IP</li>
-              <li>Centros de datos</li>
-              <li>Soluciones integrales</li>
-            </ul>
-            <a class="btn btn-card" href="https://wa.me/525610462212?text=Hola%2C%20quiero%20una%20cotizaci%C3%B3n%20personalizada%20para%20mi%20empresa." target="_blank" rel="noopener">Pedir cotización</a>
-          </article>
-        </div>
-
-        <div class="pricing-note">
-          <strong>¿No sabes qué paquete elegir?</strong>
-          <span>Escríbenos por WhatsApp y te orientamos según tu tipo de negocio, tamaño de red y prioridad.</span>
-          <a href="https://wa.me/525610462212?text=Hola%2C%20no%20s%C3%A9%20qu%C3%A9%20paquete%20necesito.%20%C2%BFMe%20pueden%20orientar%3F" target="_blank" rel="noopener">Recibir orientación</a>
         </div>
       </div>
     </section>
 
-    <section id="proceso" class="section">
+    <section id="continuidad" class="section continuity-section">
+      <div class="container continuity-grid">
+        <div class="continuity-copy reveal">
+          <p class="eyebrow">Continuidad operativa</p>
+          <h2>Continuidad tecnológica para empresas que necesitan estabilidad operativa.</h2>
+          <p>Diseñamos un esquema de seguimiento para que tu empresa tenga visibilidad sobre incidentes, amenazas, cumplimiento, seguridad y mejora del servicio.</p>
+          <div class="continuity-benefits">
+            <div><strong>Monitoreo</strong><span>Seguimiento preventivo y detección temprana.</span></div>
+            <div><strong>Reportería</strong><span>Informes iniciales, bimestrales, incidentes y ejercicios.</span></div>
+            <div><strong>Seguridad</strong><span>Controles, recomendaciones y mejora continua.</span></div>
+            <div><strong>Acompañamiento</strong><span>Apoyo en transición tecnológica y toma de decisiones.</span></div>
+          </div>
+        </div>
+        <div class="dashboard-mock reveal">
+          <div class="dashboard-header"><span>Vista ejecutiva</span><strong>Continuidad</strong></div>
+          <div class="risk-panel"><div><span>Nivel actual</span><strong>Controlado</strong></div><em>Seguimiento activo</em></div>
+          <div class="bars"><div><span>Incidentes</span><i style="--w:36%"></i></div><div><span>Seguridad</span><i style="--w:72%"></i></div><div><span>Mejora</span><i style="--w:64%"></i></div><div><span>Cumplimiento</span><i style="--w:58%"></i></div><div><span>Amenazas</span><i style="--w:46%"></i></div></div>
+          <div class="priority-grid"><div class="p-critical">Crítico<span>Inmediato</span></div><div class="p-high">Alto<span>24 hrs</span></div><div class="p-medium">Medio<span>48 hrs</span></div><div class="p-low">Bajo<span>Mejor esfuerzo</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="metodologias" class="section methodology-section">
       <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Proceso de trabajo</p>
-          <h2>Metodología clara, documentada y enfocada en resultados</h2>
-        </div>
-
-        <div class="steps">
-          <div class="step"><span>01</span><h3>Escuchamos</h3><p>Entendemos tu operación, necesidades y objetivos.</p></div>
-          <div class="step"><span>02</span><h3>Diagnosticamos</h3><p>Revisamos riesgos, infraestructura y oportunidades de mejora.</p></div>
-          <div class="step"><span>03</span><h3>Proponemos</h3><p>Presentamos una solución técnica y económica clara.</p></div>
-          <div class="step"><span>04</span><h3>Implementamos</h3><p>Ejecutamos con orden, seguridad y buenas prácticas.</p></div>
-          <div class="step"><span>05</span><h3>Documentamos</h3><p>Entregamos evidencia, recomendaciones e informes.</p></div>
-          <div class="step"><span>06</span><h3>Damos seguimiento</h3><p>Acompañamos la mejora continua de tu negocio.</p></div>
+        <div class="section-heading center reveal"><p class="eyebrow">Buenas prácticas y metodología</p><h2>Soluciones alineadas a marcos reconocidos y entendibles para PyMEs.</h2><p>Usamos metodologías y referencias reconocidas para estructurar diagnósticos, controles, seguimiento, respuesta a incidentes y mejora continua.</p></div>
+        <div class="method-grid">
+          <article class="method-card reveal"><strong>ITIL</strong><span>Gestión de servicios y mejora continua.</span></article>
+          <article class="method-card reveal"><strong>CIS</strong><span>Controles prácticos de seguridad.</span></article>
+          <article class="method-card reveal"><strong>NIST</strong><span>Riesgo, protección, respuesta y recuperación.</span></article>
+          <article class="method-card reveal"><strong>ISO 27001</strong><span>Gestión de seguridad de la información.</span></article>
+          <article class="method-card reveal"><strong>MITRE ATT&CK</strong><span>Contexto técnico para tácticas y amenazas.</span></article>
         </div>
       </div>
     </section>
 
-    <section class="section why">
-      <div class="container why-grid">
-        <div>
-          <p class="eyebrow">Por qué elegirnos</p>
-          <h2>Un solo aliado para seguridad, redes e infraestructura</h2>
-          <p>
-            Hablamos en términos claros para dueños y gerentes, pero trabajamos con enfoque técnico,
-            documentación profesional y soluciones escalables para PyMEs.
-          </p>
-        </div>
-
-        <div class="why-list">
-          <div><strong>Trato cercano</strong><span>Atención clara y enfocada en tu negocio.</span></div>
-          <div><strong>Consultoría seria</strong><span>Diagnóstico, propuesta, implementación y evidencia.</span></div>
-          <div><strong>Visión integral</strong><span>Seguridad, infraestructura y continuidad operativa.</span></div>
-          <div><strong>Cobertura flexible</strong><span>Estado de México y atención remota nacional.</span></div>
+    <section class="section reporting-section">
+      <div class="container reporting-grid">
+        <div class="section-heading reveal"><p class="eyebrow">Reportes y visibilidad</p><h2>El cliente no solo recibe servicio: recibe claridad.</h2><p>Los reportes convierten el trabajo técnico en información entendible para dueños, gerentes y responsables operativos.</p></div>
+        <div class="report-cards">
+          <article class="report-card reveal"><span>01</span><h3>Reporte inicial</h3><p>Estado actual, hallazgos, riesgos y recomendaciones al contratar el servicio.</p></article>
+          <article class="report-card reveal"><span>02</span><h3>Seguimiento bimestral</h3><p>Eventos, métricas, controles, actividades realizadas, riesgos actuales y tendencia.</p></article>
+          <article class="report-card reveal"><span>03</span><h3>Reporte de incidente</h3><p>Resumen, línea de tiempo, alcance, impacto, contención, corrección y evidencias.</p></article>
+          <article class="report-card reveal"><span>04</span><h3>Ejercicios de seguridad</h3><p>Resultados, métricas, recomendaciones y aprendizaje operativo para el personal.</p></article>
         </div>
       </div>
     </section>
 
-    <section class="section faq-section">
+    <section class="section process-section">
       <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Preguntas frecuentes</p>
-          <h2>Dudas comunes antes de solicitar una cotización</h2>
-        </div>
-
-        <div class="faq-grid">
-          <details open>
-            <summary>¿Pueden atender negocios pequeños?</summary>
-            <p>Sí. El enfoque principal son PyMEs que necesitan mejorar seguridad, redes o infraestructura sin procesos complicados.</p>
-          </details>
-          <details>
-            <summary>¿El diagnóstico obliga a contratar?</summary>
-            <p>No. El diagnóstico permite entender necesidades, riesgos y alcance para definir una propuesta clara.</p>
-          </details>
-          <details>
-            <summary>¿Trabajan fuera del Estado de México?</summary>
-            <p>Sí. La atención presencial se enfoca en Estado de México y algunos proyectos pueden gestionarse de forma remota a nivel nacional.</p>
-          </details>
-          <details>
-            <summary>¿Entregan documentación?</summary>
-            <p>Sí. Se pueden entregar informes, evidencias, recomendaciones, inventario básico y documentación técnica según el proyecto.</p>
-          </details>
+        <div class="section-heading center reveal"><p class="eyebrow">Modelo de trabajo</p><h2>Un proceso claro desde el diagnóstico hasta la continuidad.</h2></div>
+        <div class="process-timeline">
+          <div class="process-step reveal"><span>01</span><h3>Diagnóstico</h3><p>Evaluamos estado actual, riesgos y oportunidades.</p></div>
+          <div class="process-step reveal"><span>02</span><h3>Propuesta</h3><p>Presentamos alcance, recomendaciones y ruta de mejora.</p></div>
+          <div class="process-step reveal"><span>03</span><h3>Implementación</h3><p>Ejecutamos configuraciones, infraestructura o reestructuración.</p></div>
+          <div class="process-step reveal"><span>04</span><h3>Seguimiento</h3><p>Medimos incidentes, seguridad, amenazas, cumplimiento y mejora.</p></div>
+          <div class="process-step reveal"><span>05</span><h3>Continuidad</h3><p>Acompañamos la operación con soporte, monitoreo y reportes.</p></div>
         </div>
       </div>
     </section>
 
-    <section id="contacto" class="section contact-section">
-      <div class="container contact-card">
-        <div>
-          <p class="eyebrow">Contacto</p>
-          <h2>Solicita un diagnóstico, informe o cotización</h2>
-          <p>
-            Cuéntanos qué necesita tu empresa y te ayudamos a definir la mejor solución tecnológica.
-          </p>
+    <section id="niveles" class="section levels-section">
+      <div class="container">
+        <div class="section-heading center reveal"><p class="eyebrow">Contratos y niveles</p><h2>Niveles de servicio diseñados para crecer contigo.</h2><p>El alcance se define según necesidades, tamaño de operación, criticidad y nivel de acompañamiento requerido.</p></div>
+        <div class="levels-grid">
+          <article class="level-card reveal"><p>Contratación inicial</p><h3>Consultoría Inicial</h3><p>Diagnósticos, revisiones, evaluación básica, consultoría y recomendaciones.</p><ul><li>Diagnóstico tecnológico</li><li>Evaluación de seguridad</li><li>Revisión de red</li><li>Roadmap inicial</li></ul><strong>Cotización personalizada</strong></article>
+          <article class="level-card highlighted reveal"><p>Operación técnica</p><h3>Operación Profesional</h3><p>Configuración, implementación, reestructuración y operación técnica especializada.</p><ul><li>Configuración de redes</li><li>Implementaciones técnicas</li><li>Infraestructura tecnológica</li><li>Documentación técnica</li></ul><strong>Desde $2,000 MXN*</strong></article>
+          <article class="level-card reveal"><p>Servicio estratégico</p><h3>Continuidad Empresarial</h3><p>Servicios combinados de seguridad, monitoreo, seguimiento, reportes y continuidad.</p><ul><li>Monitoreo y seguimiento</li><li>Reportes bimestrales</li><li>Seguridad basada en buenas prácticas</li><li>Acompañamiento estratégico</li></ul><strong>Cotización personalizada</strong></article>
         </div>
+        <p class="fine-print">*El precio mínimo de referencia puede variar según alcance, modalidad, ubicación, cantidad de activos y criticidad. No incluye compra de equipos, licenciamiento, internet, obra civil, electricidad, software de terceros ni garantías de fabricante.</p>
+      </div>
+    </section>
 
-        <div class="contact-actions">
-          <a class="btn btn-primary" href="https://wa.me/525610462212?text=Hola%2C%20quiero%20solicitar%20un%20diagn%C3%B3stico%20o%20cotizaci%C3%B3n%20para%20mi%20empresa." target="_blank" rel="noopener">Solicitar por WhatsApp</a>
-          <a class="btn btn-secondary disabled" href="#" aria-disabled="true">Correo próximamente</a>
-          <a class="btn btn-secondary disabled" href="#" aria-disabled="true">Facebook</a>
-          <a class="btn btn-secondary disabled" href="#" aria-disabled="true">Instagram</a>
-        </div>
+    <section id="contacto" class="section final-cta-section">
+      <div class="container final-cta reveal">
+        <div><p class="eyebrow">Hablemos de tu operación</p><h2>Solicita una evaluación inicial y conoce el estado tecnológico y de seguridad de tu empresa.</h2><p>Atención presencial en Toluca, Metepec y Lerma. Atención remota nacional para diagnóstico, soporte, monitoreo y seguridad.</p></div>
+        <div class="cta-actions"><a class="btn btn-primary" href="https://wa.me/525610464412?text=Hola%2C%20quiero%20solicitar%20una%20evaluaci%C3%B3n%20inicial%20para%20mi%20empresa." target="_blank" rel="noopener">Agendar diagnóstico</a><a class="btn btn-secondary disabled" href="#" aria-disabled="true">Correo próximamente</a><a class="btn btn-secondary disabled" href="#" aria-disabled="true">Facebook</a><a class="btn btn-secondary disabled" href="#" aria-disabled="true">Instagram</a></div>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="container footer-grid">
-      <div class="footer-brand">
-        <img src="./assets/logo-footer.webp" alt="Soluciones Tecnológicas para la Gestión de Datos y Seguridad">
-        <p>© <span id="year"></span> Soluciones Tecnológicas para la Gestión de Datos y Seguridad.</p>
+  <footer class="footer footer-compact">
+    <div class="container footer-main compact">
+      <div class="footer-item">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-5.1 7-12a7 7 0 0 0-14 0c0 6.9 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
+        <div><strong>Cobertura</strong><span>Toluca · Metepec · Lerma · CDMX<br>Remoto nacional</span></div>
       </div>
-      <p>Estado de México · Atención remota nacional</p>
+
+      <div class="footer-item">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg>
+        <div><strong>Correo</strong><span>Próximamente</span></div>
+      </div>
+
+      <div class="footer-item">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4l4 4-2 2c1.5 3 3 4.5 6 6l2-2 4 4-2 3c-8 0-15-7-15-15l3-2z"/></svg>
+        <div><strong>Teléfono / WhatsApp</strong><span>+52 56 1046 4412</span></div>
+      </div>
+
+      <div class="footer-item">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 4v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-5"/></svg>
+        <div><strong>Metodologías</strong><span>ITIL · CIS · NIST · ISO 27001<br>MITRE ATT&CK</span></div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Soluciones Tecnológicas para la Gestión de Datos y Seguridad. Todos los derechos reservados.</p>
+      <div><a href="#contacto">Aviso de privacidad</a><span>|</span><a href="#contacto">Términos y condiciones</a></div>
     </div>
   </footer>
 
-
-  <a class="floating-whatsapp" href="https://wa.me/525610462212?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20servicios%20para%20mi%20empresa." target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
-    <span>WhatsApp</span>
-  </a>
-
+  <a class="floating-whatsapp" href="https://wa.me/525610464412?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20servicios%20para%20mi%20empresa." target="_blank" rel="noopener"><span>WhatsApp</span></a>
   <script src="./script.js"></script>
 </body>
 </html>
